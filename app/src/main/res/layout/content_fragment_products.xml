@@ -1,0 +1,16 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_container"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    tools:context="app.bennsandoval.com.woodmin.fragments.ProductsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_products"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"/>
+
+</android.support.v4.widget.SwipeRefreshLayout>

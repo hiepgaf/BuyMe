@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Woodmin</string>
+    <string name="search_hint">Search</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">EDIT</string>
+
+    <!-- Notifications String -->
+    <string name="sync_orders">Orders</string>
+    <string name="sync_products">Products</string>
+    <string name="sync_customers">Customers</string>
+    <string name="sync_count">Processing %1$d of %2$d</string>
+
+    <!-- Preferences String -->
+    <string name="pref_user_key" translatable="false">pref_user</string>
+    <string name="pref_secret_key" translatable="false">pref_secret</string>
+    <string name="pref_last_update_key" translatable="false">pref_last_update</string>
+    <string name="pref_server" translatable="false">pref_server</string>
+    <string name="pref_shopping_cart" translatable="false">pref_shopping_card</string>
+
+    <!-- SyncAdapter and ContentProvider related -->
+    <string name="sync_account_type" translatable="false">account.woodmin.com</string>
+    <string name="provider_name" translatable="false">Woodmin</string>
+    <string name="content_authority" translatable="false">com.woodmin.app</string>
+
+    <!--Drawer-->
+    <string name="title_section1">Orders</string>
+    <string name="title_section2">Products</string>
+    <string name="title_section3">Customers</string>
+    <!--string name="title_section4">Coupons</string-->
+    <string name="title_section5">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_synchronize">Synchronize</string>
+
+    <!--Login-->
+    <string name="title_activity_login">Woodmin</string>
+    <string name="prompt_server">https://www.yourserver.com</string>
+    <string name="prompt_user">API user</string>
+    <string name="prompt_password">API secret</string>
+    <string name="action_connect">Connect</string>
+    <string name="error_server_https">Available only with HTTPS</string>
+    <string name="error_field_length">Value too short</string>
+    <string name="error_incorrect">Confirm your values</string>
+
+    <!--Order-->
+    <string name="new_order_title">New Order</string>
+    <string name="order_title_search">Search order</string>
+    <string name="toast_search_ship">Search order completed %1$s for shipping</string>
+    <string name="order_voice_search">order</string>
+    <string name="public_note">Public</string>
+    <string name="private_note">Private</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="order_payment">Payment</string>
+    <string name="order_billing">Billing</string>
+    <string name="order_shipping">Shipping</string>
+    <string name="order_note">Notes</string>
+    <string name="order_shopping">Shopping Cart</string>
+    <string name="order_amount">Amount</string>
+    <string name="order_taxes">Taxes</string>
+    <string name="order_total">Total</string>
+    <string name="order">ORDER %1$s</string>
+    <string name="guest">GUEST</string>
+    <string name="items">%1$d ITEMS</string>
+    <string name="call">CALL</string>
+    <string name="order_title">order</string>
+    <string name="sku_title">sku</string>
+    <string name="stock_title">stock</string>
+    <string name="price_title">price</string>
+    <string name="items_detail">items</string>
+    <string name="counter_process">%1$d/%2$d</string>
+    <string name="scan_instructions">Scan the bar code of the item and tap in the plus sign to confirm and process the next item in the order.</string>
+    <string name="order_complete">Order complete</string>
+    <string name="warning_more_items">Please, be careful this order contains more items for the same product, this is not the previous one.</string>
+    <string name="order_update_confirmation">The order is gonna be mark as completed. Are you sure?</string>
+    <string name="error_update">Something was wrong changing the status of the order</string>
+    <string name="success_update">Order changed successfully</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="error_add_stock_quantity">Invalid stock quantity</string>
+    <string name="error_add_quantity">Invalid quantity</string>
+    <string name="clear">Remove all</string>
+    <string name="add_cart">Add to shopping cart</string>
+    <string name="order_create_confirmation">The order is gonna be created and marked as completed. Are you sure?</string>
+    <string name="create_order">Creating order, please wait…</string>
+    <string name="finalize_order">Finalizing order, please wait…</string>
+    <string name="invalid_items">Select at least one item</string>
+
+    <!--Product-->
+    <string name="product_voice_search">product</string>
+    <string name="product_title_search">Search product</string>
+    <string name="description_product">Description</string>
+    <string name="price_const">Price: $%1$s Cost: $%2$s</string>
+    <string name="price">$%1$s</string>
+    <string name="stock">%1$s Units</string>
+
+    <!--Customer-->
+    <string name="customer_voice_search">customer</string>
+    <string name="customer_title_search">Search customer</string>
+    <string name="customer_spend">Total spend</string>
+    <string name="customer_call">MAKE A CALL</string>
+    <string name="customer_email">SEND EMAIL</string>
+    <string name="title_activity_order_lines_ship">OrderLinesShip</string>
+
+    <!-- Default values -->
+    <string name="default_company" translatable="false"></string>
+    <string name="default_first_name" translatable="false"></string>
+    <string name="default_last_name" translatable="false"></string>
+    <string name="default_email" translatable="false"></string>
+    <string name="default_phone" translatable="false"></string>
+
+    <string name="default_line_one" translatable="false">San Francisco #3477 Int 2</string>
+    <string name="default_line_two" translatable="false">Colonia Chapalita</string>
+    <string name="default_city" translatable="false">Guadalajara</string>
+    <string name="default_state" translatable="false">Jalisco</string>
+    <string name="default_postal_code" translatable="false">44500</string>
+    <string name="default_country" translatable="false">MX</string>
+    <string name="default_payment_code" translatable="false">cod</string>
+    <string name="default_payment" translatable="false">Pago en persona</string>
+
+    <string name="default_shipping_method_id" translatable="false">local_pickup</string>
+    <string name="default_shipping_method_title" translatable="false">Pasar por el paquete</string>
+    <string name="default_shipping_total" translatable="false">0.00</string>
+
+    <!-- Hint -->
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Phone</string>
+    <string name="company_hint">Company</string>
+
+    <string name="line_one_hint">Line one</string>
+    <string name="line_two_hint">Line two</string>
+    <string name="city_hint">City</string>
+    <string name="state_hint">State</string>
+    <string name="postal_code_hint">Postal Code</string>
+    <string name="country_hint">Country</string>
+
+</resources>
